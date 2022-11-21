@@ -1,0 +1,37 @@
+.header-{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B2149;
+    height: 100px;
+    z-index: 1;
+    /* width: 100%; */
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ui.search.header-left-content .prompt{
+    background-color: #0F2C61;
+    color: white;
+    
+}
+
+.header-left-content{
+    padding: 0 10px;
+}
+.header-left-content a{
+    color: white;
+}
+
+.header-middle-content{
+    color: white;
+}
+
+.header-right-content{
+    margin: 0 10px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,400;0,500;0,900;1,700&family=Roboto:ital@0;1&display=swap');
+
+
+.under-header-text{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 10px 0;
+    line-height: 140%;
+}
+.under-header{
+    height: auto;
+    background-color: #0B2149;
+    border-top: 2px solid grey;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.under-header-secondary{
+    color: #828282;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.module-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+    color: #0B2149;;
+}
+.module-text{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: #0B2149;
+}
+.module-text span{
+    font-weight: bold;
+}
+
+.module-wrapper{
+    margin: 60px 100px;
+}
+.module-content{
+    margin: 60px 0;
+}
+.module-content .ui.segment{
+    position: static;
+}
+
+.module-page-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 100px 0;
+    height: 400px;
+}
+
+.left-content{
+    height: 100px;
+    width: 300px;
+    border: 1px solid #0B2149;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.module-page-content-right{
+    width: 700px;
+}
+.module-presentation{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px; */
+}
+
+.module-page-content-right img{
+    height: 500px;
+    border: 5px solid #0B2149;
+    border-radius: 25px;
+}
+
+.none{
+    display: none;
+}
